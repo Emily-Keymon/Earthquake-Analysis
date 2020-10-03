@@ -1,7 +1,10 @@
-// Create the tile layer that will be the background of our map
+// Level 1:  Basic Visualization
+
+// Create the tile layer that will be the background of the map
 console.log("Step 1 working");
 
-var apiKey = "pk.eyJ1IjoicmVkcnVseiIsImEiOiJja2ZxMTZ5aXEwZmVrMnlwc3JxOHFtaW1rIn0.5kF-iZVvGfd0mODZ5ahlDg";
+//  API key for Mapbox
+var apiKey = API_KEY;
 
 var graymap = L.tileLayer("https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}", {
   attribution: "© <a href='https://www.mapbox.com/about/maps/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap</a> <strong><a href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a></strong>",
@@ -23,7 +26,7 @@ var map = L.map("mapid", {
 // Add 'graymap' tile layer to the map
 graymap.addTo(map);
 
-// Make an AJAX call that retrieves earthquake geoJSON data
+// Gat dataset by making an AJAX call that retrieves earthquake geoJSON data
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data) {
 
   // Function to return style data for each of the earthquakes plotted on the map
