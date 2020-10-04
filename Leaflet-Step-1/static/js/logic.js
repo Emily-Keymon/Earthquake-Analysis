@@ -24,7 +24,7 @@ var map = L.map("mapid", {
 // Add 'graymap' tile layer to the map
 graymap.addTo(map);
 
-// Gat dataset by making an AJAX call that retrieves earthquake geoJSON data
+// Get dataset by making an AJAX call that retrieves earthquake geoJSON data
 d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geojson", function(data) {
 
   // Function to return style data for each of the earthquakes plotted on the map
@@ -78,11 +78,13 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
     // Set the style for each circleMarker using styleInfo function
     style: styleInfo,
 
-    // Create a popup for each marker to display the magnitude and location of the earthquake after the marker
-    //has been created and styled
+    // Create a popup for each marker to display the magnitude and location
+    // of the earthquake after the marker has been created and styled
     onEachFeature: function(feature, layer) {
       layer.bindPopup("Magnitude: " + feature.properties.mag + "<br>Location: " + feature.properties.place);
     }
+
+    // Add to map
   }).addTo(map);
 
   // Create a legend control object
@@ -104,7 +106,7 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
       "#ea2c2c"
     ];
 
-    // Looping through the intervals to generate a label with a colored square for each interval
+    // Loop through intervals to generate a label with a colored square for each interval
     for (var i = 0; i < grades.length; i++) {
       div.innerHTML +=
         "<i style='background: " + colors[i] + "'></i> " +
