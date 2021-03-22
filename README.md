@@ -1,4 +1,4 @@
-## Website:  https://emily-keymon.github.io/leaflet-challenge/
+## Website:   https://emily-keymon.github.io/Earthquake-Analysis/
 
 # Leaflet Homework - Visualizing Data with Leaflet
 
