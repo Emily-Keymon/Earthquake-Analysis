@@ -8,7 +8,7 @@ The goal of this project was to use JavaScript to present an interactive map vis
 
 ---
 ## Dataset
-* 
+* https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 
 
 ---
