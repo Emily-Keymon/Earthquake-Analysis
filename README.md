@@ -60,7 +60,8 @@ The USGS wants you to plot a second data set on the map to illustrate the relati
 ### Outdoors
 ![outdoors](https://user-images.githubusercontent.com/64673015/112073581-6bf12400-8b42-11eb-9d68-7318545a50bd.PNG)
 
-
+### Satellite
+![satellite](https://user-images.githubusercontent.com/64673015/112073648-875c2f00-8b42-11eb-81eb-d171c0b55fd7.PNG)
 
 ---
 
