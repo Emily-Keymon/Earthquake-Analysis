@@ -6,6 +6,8 @@
 
 The goal of this project was to use JavaScript to present an interactive map visualization of USGS earthquake data within a web page. Since the baseline data was provided in GeoJSON format, Leaflet was used to import and process the data, as well as generate the required visualization.
 
+Used the USGS GeoJSON Feed page for a data set to visualize. Created a map using Leaflet that plots all of the earthquakes from the data set based on their longitude and latitude. Then, plotted a second data set on the map to illustrate the relationship between tectonic plates and seismic activity.
+
 ---
 ## Datasets
 * https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
