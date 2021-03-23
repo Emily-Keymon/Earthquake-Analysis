@@ -25,11 +25,23 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 ---
 ## Tasks
-### Level 1: Extract dataset
-1.  Imported the GeoJSON data
-2.  
-
-
+### Level 1: Basic Visualization
+1.  Create the tile layer that will be the background of the map
+2.  Create the map object with options
+3.  Add 'graymap' tile layer to the map
+4.  Get dataset by making an AJAX call that retrieves earthquake geoJSON data
+5.  Function to return style data for each of the earthquakes plotted on the map
+6.  Function to determine color of the marker based on the magnitude of the earthquake
+7.  Function to determine radius of the earthquake marker based on its magnitude
+8.  Add a GeoJSON layer to the map once the file is loaded
+9.  Turn each feature into a circleMarker on the map
+10.  Set the style for each circleMarker using styleInfo function
+11.  Create a popup for each marker to display the magnitude and location of the earthquake after the marker has been created and styled
+12.  Add to map
+13.  Create a legend control object
+14.  Add all the details for the legend
+15.  Loop through intervals to generate a label with a colored square for each interval
+16.  Add legend to the map
 
 
 
