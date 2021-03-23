@@ -16,11 +16,10 @@ Used the USGS GeoJSON Feed page for a data set to visualize. Created a map using
 
 ---
 ## Tools Used
-*
-*
-*
-
-
+* PyCharm - Python IDE
+* JavaScript - d3, Leaflet
+* HTML, CSS, Bootstrap
+* Mapbox
 
 ---
 ## Tasks
