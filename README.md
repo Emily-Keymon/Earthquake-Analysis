@@ -42,7 +42,7 @@ Visualize an earthquake data set.
    * Create a legend that will provide context for the map data.
 
 
-### Level 2: More Data (Optional)
+### Level 2: More Data
 
 The USGS wants you to plot a second data set on the map to illustrate the relationship between tectonic plates and seismic activity. Pull in a second data set and visualize it along side the original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
 
