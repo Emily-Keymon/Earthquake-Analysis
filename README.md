@@ -54,6 +54,8 @@ The USGS wants you to plot a second data set on the map to illustrate the relati
 
 ---
 ## Results
+* Grayscale
+![grayscale](https://user-images.githubusercontent.com/64673015/112073528-4fed8280-8b42-11eb-8f6c-76ac7f8e5aa9.PNG)
 
 
 
