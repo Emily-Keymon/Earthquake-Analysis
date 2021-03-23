@@ -45,26 +45,8 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 
 
-2. **Import & Visualize the Data**
-
-   Create a map using Leaflet that plots all of the earthquakes from the data set based on their longitude and latitude.
-
-   * The data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
-
-   * Include popups that provide additional information about the earthquake when a marker is clicked.
-
-   * Create a legend that will provide context for the map data.
-
-
 ### Level 2: More Data
 
-The USGS wants you to plot a second data set on the map to illustrate the relationship between tectonic plates and seismic activity. Pull in a second data set and visualize it along side the original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
-
-* Plot a second data set on the map.
-
-* Add a number of base maps to choose from as well as separate out the two different data sets into overlays that can be turned on and off independently.
-
-* Add layer controls to the map.
 
 ---
 ## Results
