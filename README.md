@@ -46,9 +46,34 @@ The USGS provides earthquake data in a number of different formats, updated ever
 
 
 ### Level 2: More Data
-
-
----
+1.  Create the tile layers that will be the selectable backgrounds of the map
+2.  Grayscale layer
+3.  Satellite layer
+4.  Outdoors layer
+5.  Create the map object with options, add layers created above
+6.  Add 'graymap' tile layer to the map
+7.  Create layers for two different sets of data, earthquakes and tectonicplates
+8.  Define an object that contains all of the different map choices
+9.  Define an object that contains all of the overlays
+10. Add a control to the map to allow user to change which layers are visible
+11. Get dataset by making an AJAX call that retrieves earthquake geoJSON data
+12. Function to return style data for each of the earthquakes plotted on the map
+13. Function to determine color of the marker based on the magnitude of the earthquake
+14. Function to determine radius of the earthquake marker based on its magnitude
+15. Add a GeoJSON layer to the map once the file is loaded
+16. Turn each feature into a circleMarker on the map
+17. Create a popup for each marker to display the magnitude and location of the earthquake after the marker has been created and styled
+18. Add to earthquake layer (instead of directly to the map)
+19. Add earthquake layer to map
+20. Create a legend control object
+21. Add all the details for the legend
+22. Loop through intervals to generate a label with a colored square for each interval
+23. Add legend to the map
+24. Get dataset by making an AJAX call that retrieves tectonic plate geoJSON data
+25. Add geoJSON data and style information to the tectonicplates layer
+26. Add the tectonicplates layer to map
+    
+ ---
 ## Results
 ### Grayscale
 ![grayscale](https://user-images.githubusercontent.com/64673015/112073528-4fed8280-8b42-11eb-8f6c-76ac7f8e5aa9.PNG)
