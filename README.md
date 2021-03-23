@@ -4,9 +4,7 @@
 
 # Earthquake Analysis
 
-The goal of this project was to use JavaScript to present an interactive map visualization of USGS earthquake data within a web page. Since the baseline data was provided in GeoJSON format, Leaflet was used to import and process the data, as well as generate the required visualization.
-
-Used the USGS GeoJSON Feed page for a data set to visualize. Created a map using Leaflet that plots all of the earthquakes from the data set based on their longitude and latitude. Then, plotted a second data set on the map to illustrate the relationship between tectonic plates and seismic activity.
+The goal of this project was to use JavaScript to present an interactive map visualization of USGS earthquake data within a web page. Leaflet was used to import and process the data, as well as generate the required visualization. Mapbox was used to create a map that plots all of the earthquakes from the data set based on their longitude and latitude. Then, a second data set was plotted on the map to illustrate the relationship between tectonic plates and seismic activity.
 
 ---
 ## Datasets
