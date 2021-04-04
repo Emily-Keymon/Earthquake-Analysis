@@ -7,6 +7,12 @@
 The goal of this project was to use JavaScript to present an interactive map visualization of USGS earthquake data within a web page. Leaflet was used to import and process the data, as well as generate the required visualization. Mapbox was used to create a map that plots all of the earthquakes from the data set based on their longitude and latitude. Then, a second data set was plotted on the map to illustrate the relationship between tectonic plates and seismic activity.
 
 ---
+## Objectives
+* Harness the power of API's and JSON to gather earthquake data from USGS datasets
+* Utilize Leaflet.js library to create visually compelling animated maps
+* Embed the created map onto a live web page using HTML and CSS
+
+---
 ## Datasets
 * https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php
 * https://github.com/fraxen/tectonicplates
