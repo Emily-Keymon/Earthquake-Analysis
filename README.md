@@ -15,8 +15,9 @@ The goal of this project was to use JavaScript to present an interactive map vis
 ---
 ## Tools Used
 * PyCharm - Python IDE
-* JavaScript - d3, Leaflet
-* HTML, CSS, Bootstrap
+* HTML, CSS
+* JavaScript - d3, Leaflet, JSON
+* APIs
 * Mapbox
 
 ---
